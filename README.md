@@ -7,7 +7,7 @@ The NL2KR-L takes an initial lexicon consisting of some words and their meanings
 The result of NL2KR-L is the final lexicon, which contains all the words, their meanings and their weights.   Once the training component finishes its job, the translation component (NL2KR-T) uses this updated lexicon and translates sentences using the CCG parser. Since words can have multiple meanings and their associated λ-calculus expressions, weights assigned to each lexical entry in the lexicon helps in deciding more likely meaning of a word in the context of a sentence.     
 
 
-References:
+Publications related to NL2KR (New to Old):
 1. Vo Nguyen, Arindam Mitra and Chitta Baral. The NL2KR platform for building Natural Language Translation Systems. ACL 2015. 
 
 2. Shruti Gaur, Nguyen H. Vo, Kazuaki Kashihara, and Chitta Baral. Translating Simple Legal Text to Formal Representations. In New Frontiers in Artificial Intelligence (JSAI-isAI 2014 Workshops, LENLS, JURISIN, and GABA, Kanagawa, Japan, November 23-24, 2014, Revised Selected Papers). Edited by: Tsuyoshi Murata, Koji Mineshima, Daisuke Bekki. 2015. 
@@ -26,13 +26,13 @@ We implement a Japanese CCG parser to NL2KR system to adjust Japanese (JNL2KR) a
 
 [Download NL2KR with Word2Vec](https://drive.google.com/file/d/1CfHZkU3t7m8cxiDTCsVU2IfHyVK4NEi5/view?usp=sharing)
 
-[Download JNL2KR]()
+[Download JNL2KR](https://drive.google.com/file/d/1HSbNtO0CTM6aV4kKRWsMZdw2XMBIqu5t/view?usp=sharing)
 
-[Download JNL2KR with Word2Vec]()
+[Download JNL2KR with Word2Vec](https://drive.google.com/file/d/1E-DiIN6__XWX5qOeqJ3p6bzIj0azZ87r/view?usp=sharing)
 
-[Download JNL2KR with WS4J]()
+[Download JNL2KR with WS4J](https://drive.google.com/file/d/1sVzaCdjR72ZMhYqmOVXCMyORUZ7rRgYO/view?usp=sharing)
 
-References:
+Publications related to the enhanced Genralization algorithm and extend NL2KR to Japanese (JNL2KR):
 1. Kazuaki Kashihara. Translate Japanese into Formal Languages with an Enhanced Generalization Algorithm. Science and Information Conference, 2020
 
 2. (Japanese) 樫原和昭, 植松すみれ, 宮尾祐介, Chitta Baral. ベクトル空間表現を用いた JNL2KR の語義曖昧性解消. 言語処理学会 第23回年次大会発表論文集, 2017
